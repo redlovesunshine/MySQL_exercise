@@ -124,6 +124,10 @@ ON st.SId = s.SId;
 
 
 ```sql
-hello
+SELECT s1.SId, s1.score as 01_score, s2.score as 02_score 
+FROM (select * FROM sc WHERE CId = 01) as s1 
+JOIN 
+(select * FROM sc WHERE CId = 02) as s2
+ON s1.Sid = s2.SId;
 ```
 
