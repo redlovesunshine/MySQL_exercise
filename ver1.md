@@ -113,6 +113,6 @@ ON st.SId = s.SId;
 ```
 2. 查詢同時存在 " 01 " 課程和 " 02 " 課程的情況
 
-hello
+hello moto
 
 
